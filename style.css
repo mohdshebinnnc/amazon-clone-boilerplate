@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grandparent{
+    background-color: rgb(7, 7, 24);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.map{
+    display: flex;
+    margin-top: 10px;
+}
+.map>img{
+    width: 28px;
+    height: 20px;
+}
+.address{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hello{
+    color: grey;
+}
+.add{
+    color: white;
+    font-weight: 500;
+}
+.top2{
+    display: flex;
+    justify-content: center;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    padding: 10px 180px 13px 50px ;
+}
+/* .searchbar>input{
+    padding: 3px 50px 3px 60px ;
+} */
+.flag{
+    margin-top: 20px;
+}
+.flag>img{
+    display: flex;
+    justify-content: center;
+}
+.Account{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.sign{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+.grandparent2{
+    background-color: rgb(52, 52, 80);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px ;
+}
+.grandparent2>p{
+    color: white;
+    font-weight: 500;
+}
