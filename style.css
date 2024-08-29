@@ -73,3 +73,30 @@ body{
     color: white;
     font-weight: 500;
 }
+.biggrandparent{
+    height: 100vh;
+    background-image: url("./assets/background\ picture.png");
+}
+.bigcards{
+    display: flex;
+    justify-content: center;
+    padding: 350px 30px;
+}
+.individualcard{
+    border: solid red;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    flex-direction: column;
+}
+.about>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.pic{
+    display: flex;
+
+    width: 200px;
+    height: 100px;
+}
